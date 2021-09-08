@@ -2,7 +2,6 @@ var scoreElement;
 var score = 0;
 
 AFRAME.registerComponent('detect-collision', {
-    schema: {},
     init: detectCollision,
 });
 
